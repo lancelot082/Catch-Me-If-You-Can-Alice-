@@ -12,3 +12,25 @@ The data comes from Blaise Pascal University proxy servers. Paper "A Tool for Cl
 В этом соревновании будем решать похожую задачу: алгоритм будет анализировать последовательность из нескольких веб-сайтов, посещенных подряд одним и тем же человеком, и определять, Элис это или взломщик (кто-то другой).
 
 Данные собраны с прокси-серверов Университета Блеза Паскаля. "A Tool for Classification of Sequential Data", авторы Giacomo Kahn, Yannick Loiseau и Olivier Raynaud.
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+## Цель проекта  
+Определить, принадлежит ли сессия посещения веб-страниц конкретному пользователю (Алисе) или нет.
+
+## Используемые технологии  
+- Python (Pandas, NumPy)
+- Машинное обучение: LogisticRegression
+- Обработка последовательностей
+
+## Состав проекта  
+- `Notebook.ipynb` — основная тетрадка с моделированием  
+- `Dataset.zip` — архив с данными  
+- `README.md` — описание проекта
+
+## Результаты  
+Score: 0.94020
+Validation ROC AUC = 0.9780
+
+## Источники  
+Соревнование Kaggle: [Catch Me If You Can](https://www.kaggle.com/competitions/catch-me-if-you-can-intruder-detection-through-webpage-session-tracking2/overview)
